@@ -47,7 +47,7 @@ const Todoapp = () => {
       <hr />
       <div>
         {tata.length == 0 ? (
-          <div className="p-10 bg-gray-300 text-center">
+          <div className="p-10 bg-gray-400 text-center">
             Nothing to see here!
           </div>
         ) : (
