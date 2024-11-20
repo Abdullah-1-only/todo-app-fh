@@ -57,7 +57,7 @@ const Todoapp = () => {
                 <h1 className="flex justify-between gap-5 text-3xl p-4">
                 {todo}
               </h1>
-                <button onClick={()=>handleDelete(number)} className=" border-2 border-black text-xl p-3 bg-red-400 rounded-xl">
+                <button onClick={()=>handleDelete(number)} className=" border-2 border-black text-xl p-3 bg-red-500 rounded-xl">
                   Delete
                 </button>
               </div>
