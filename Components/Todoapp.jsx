@@ -51,7 +51,7 @@ const Todoapp = () => {
             Nothing to see here!
           </div>
         ) : (
-          <div className="flex flex-col gap-5 p-5 bg-green-200 w-full">
+          <div className="flex flex-col gap-5 p-5 bg-green-300 w-full">
             {tata.map((todo, number) => (
               <div key={number} className="flex justify-between w-full">
                 <h1 className="flex justify-between gap-5 text-3xl p-4">
